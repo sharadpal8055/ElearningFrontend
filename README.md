@@ -1,16 +1,84 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 📗 Frontend README — `ElearningFrontend`
 
-## React Compiler
+```md
+# 🎓 E-Learning Platform Frontend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A modern, responsive frontend for an e-learning platform built with **React** and **Vite**, featuring secure authentication, role-based routing, and real-world UX patterns.
 
-## Expanding the ESLint configuration
+🔗 **Live App**: https://elearningfrontend-alpha.vercel.app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Tech Stack
+
+- **Framework**: React (Vite)
+- **Styling**: Tailwind CSS
+- **Routing**: React Router DOM
+- **State Management**: React Context API
+- **HTTP Client**: Axios
+- **Auth Strategy**: Cookie-based JWT
+- **Notifications**: React Hot Toast
+- **Deployment**: Vercel
+
+---
+
+## ✨ Features
+
+### 🔐 Authentication
+- Signup / Login / Logout
+- Persistent login via cookies
+- Protected routes
+- Admin-only routes
+
+### 📚 Courses
+- Browse all courses
+- Course detail view
+- Enroll in free & paid courses
+
+### 🎓 Learning Experience
+- My Courses dashboard
+- Lesson-wise progress tracking
+- Visual completion percentage
+
+### 🛡️ Access Control
+- `RequireAuth` route guard
+- `RequireAdmin` role guard
+- Automatic redirect after login
+
+### 📱 UI/UX
+- Fully responsive design
+- Clean navigation with mobile menu
+- Optimized production build
+
+---
+
+## 📂 Project Structure
+
+src/
+├── api/
+├── auth/
+├── components/
+├── pages/
+├── routes/
+├── App.jsx
+└── main.jsx
+
+
+---
+
+## ⚙️ Environment Variables
+
+
+
+```env
+VITE_API_URL=https://elearningbackend-dhi6.onrender.com
+
+👨‍💻 Author
+
+Sharad Pal
+B.Tech CSE | Full-Stack Developer
