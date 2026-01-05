@@ -10,7 +10,7 @@
 
 A modern, responsive frontend for an e-learning platform built with **React** and **Vite**, featuring secure authentication, role-based routing, and real-world UX patterns.
 
-🔗 **Live App**: https://elearningfrontend-alpha.vercel.app
+🔗 **Live App**: https://elearningfrontend-alpha.vercel.app/
 
 ---
 
