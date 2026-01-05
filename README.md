@@ -5,12 +5,12 @@
 
 # 📗 Frontend README — `ElearningFrontend`
 
-```md
+
 # 🎓 E-Learning Platform Frontend
 
 A modern, responsive frontend for an e-learning platform built with **React** and **Vite**, featuring secure authentication, role-based routing, and real-world UX patterns.
 
-🔗 **Live API**: https://elearningfrontend-alpha.vercel.app
+🔗 **Live APP**: https://elearningfrontend-alpha.vercel.app
 
 ---
 
